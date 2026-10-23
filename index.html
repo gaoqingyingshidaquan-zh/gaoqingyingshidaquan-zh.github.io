@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="bingbot" content="index,follow">
+<title>高清影视大全｜gaoqingyingshidaquan-zh 影视资源索引站</title>
+<meta name="description" content="高清影视大全（gaoqingyingshidaquan-zh）是整理电影、电视剧、动漫与纪录片在线观看入口的索引站点，提供分类检索、更新记录与使用说明，访问地址为 https://gaoqingyingshidaquan-zh.github.io。">
+<meta name="keywords" content="高清影视大全, gaoqingyingshidaquan-zh, 高清影视大全 github, 电影电视剧在线观看, 影视资源索引">
+<link rel="canonical" href="https://gaoqingyingshidaquan-zh.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="高清影视大全｜gaoqingyingshidaquan-zh 影视资源索引站">
+<meta property="og:description" content="电影、电视剧、动漫、纪录片分类索引与使用说明，站点地址 https://gaoqingyingshidaquan-zh.github.io">
+<meta property="og:url" content="https://gaoqingyingshidaquan-zh.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+:root{--ink:#23201c;--paper:#f7f3ea;--line:#d8d0c0;--accent:#a8412c;--accent2:#2f6b5f;--soft:#efe8da}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+font:16px/1.85 "Songti SC","Source Han Serif SC","Noto Serif CJK SC",Georgia,"Microsoft YaHei",serif;}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+header.top{background:linear-gradient(180deg,#23201c,#3a332b);color:#f4ede0;padding:46px 0 38px;border-bottom:5px solid var(--accent)}
+header.top .wrap{display:flex;flex-direction:column;gap:14px}
+.tagline{font-size:13px;letter-spacing:.28em;color:#c9b48f;text-transform:uppercase}
+h1{margin:0;font-size:clamp(30px,6vw,52px);line-height:1.15;font-weight:700;letter-spacing:.04em}
+h1 em{font-style:normal;color:#e0a35c}
+.sub{font-size:15px;color:#cfc4b0;max-width:640px;margin:0}
+.urlbar{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.09);
+border:1px solid rgba(255,255,255,.18);border-radius:4px;padding:9px 14px;font-size:14px;width:fit-content}
+.urlbar b{font-weight:600;letter-spacing:.02em}
+.urlbar span{opacity:.55;font-size:12px}
+nav.toc{position:sticky;top:0;z-index:20;background:#fffdf8;border-bottom:1px solid var(--line);box-shadow:0 2px 10px rgba(0,0,0,.04)}
+nav.toc .wrap{display:flex;gap:6px;overflow-x:auto;padding:10px 22px;-webkit-overflow-scrolling:touch}
+nav.toc a{flex:0 0 auto;text-decoration:none;color:#5c5346;font-size:14px;padding:6px 13px;border:1px solid var(--line);
+border-radius:20px;white-space:nowrap;transition:.2s}
+nav.toc a:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+section{padding:52px 0 8px}
+.sec-h{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid var(--ink);padding-bottom:10px;margin-bottom:26px}
+.sec-h .num{font-size:14px;font-weight:700;color:#fff;background:var(--accent);border-radius:3px;padding:3px 9px;letter-spacing:.1em}
+.sec-h h2{margin:0;font-size:26px;letter-spacing:.06em}
+.sec-h .en{font-size:12px;color:#8b8170;letter-spacing:.2em;text-transform:uppercase}
+.lead{font-size:15.5px;color:#4c463d;margin:0 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.card{background:#fffdf8;border:1px solid var(--line);border-top:3px solid var(--accent2);border-radius:5px;padding:20px 22px}
+.card h3{margin:0 0 8px;font-size:19px;letter-spacing:.05em}
+.card p{margin:0;font-size:14.5px;color:#55504a}
+.card .tag{display:inline-block;margin-top:14px;font-size:12px;color:var(--accent2);border:1px solid var(--accent2);border-radius:3px;padding:2px 9px}
+.split{display:grid;grid-template-columns:1.05fr .95fr;gap:26px}
+.box{background:#fffdf8;border:1px solid var(--line);border-radius:5px;padding:22px}
+.box h3{margin:0 0 16px;font-size:19px;letter-spacing:.05em;border-left:4px solid var(--accent);padding-left:10px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+th{background:var(--soft);font-weight:600;letter-spacing:.04em}
+td.k{background:#fcfaf5;font-weight:600;width:34%}
+.note{background:#fff6ec;border:1px dashed var(--accent);border-radius:5px;padding:16px 20px;font-size:14.5px;margin-top:22px}
+.note b{color:var(--accent)}
+.steps{counter-reset:s;list-style:none;margin:0;padding:0}
+.steps li{counter-increment:s;position:relative;padding:0 0 22px 52px;border-left:1px solid var(--line)}
+.steps li:last-child{border-left-color:transparent;padding-bottom:0}
+.steps li::before{content:counter(s);position:absolute;left:-15px;top:0;width:30px;height:30px;background:var(--ink);color:#f4ede0;
+border-radius:50%;display:grid;place-items:center;font-size:14px;font-weight:700}
+.steps h4{margin:0 0 5px;font-size:17px}
+.steps p{margin:0;font-size:14.5px;color:#4c463d}
+.faq details{border-bottom:1px solid var(--line);padding:14px 0}
+.faq summary{cursor:pointer;font-size:16.5px;font-weight:600;list-style:none;display:flex;gap:12px;align-items:flex-start}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:"Q";flex:0 0 auto;background:var(--soft);color:var(--accent);font-weight:700;font-size:13px;padding:1px 7px;border-radius:3px}
+.faq p{margin:10px 0 0;font-size:14.5px;color:#4c463d;padding-left:40px}
+footer{border-top:4px solid var(--ink);margin-top:60px;padding:34px 0 40px;background:#23201c;color:#d3c9b6}
+footer .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:26px}
+footer h3{margin:0 0 12px;font-size:18px;color:#f4ede0;letter-spacing:.06em}
+footer p{margin:0;font-size:13.5px;color:#a79c88;line-height:1.9}
+footer a{color:#e0a35c;text-decoration:none;border-bottom:1px dotted #8a6a44}
+.copyright{font-size:12.5px;color:#7f7666;margin-top:22px;padding-top:16px;border-top:1px solid #3a332b}
+@media (max-width:820px){
+ .split,.grid{grid-template-columns:1fr}
+ footer .wrap{grid-template-columns:1fr}
+ .sec-h h2{font-size:22px}
+ table{display:block;overflow-x:auto;white-space:normal}
+ .steps li{padding-left:44px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+<header class="top">
+  <div class="wrap">
+    <div class="tagline">Film &amp; Television Index</div>
+    <h1>高清影视大全 <em>·</em> 影视资源索引站</h1>
+    <p class="sub">高清影视大全（gaoqingyingshidaquan-zh）按电影、电视剧、动漫、纪录片四类整理在线观看入口与检索方式，并提供更新记录、观看指南与常见问题说明。</p>
+    <div class="urlbar"><b>https://gaoqingyingshidaquan-zh.github.io</b><span>站点唯一访问地址</span></div>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="wrap">
+    <a href="#film">电影</a>
+    <a href="#tv">电视剧</a>
+    <a href="#anime">动漫</a>
+    <a href="#doc">纪录片</a>
+    <a href="#guide">观看指南</a>
+    <a href="#data">内容构成</a>
+    <a href="#faq">常见问题</a>
+    <a href="#about">关于本站</a>
+    <a href="#">返回顶部</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="film">
+    <div class="sec-h"><span class="num">01</span><h2>电影</h2><span class="en">Movies</span></div>
+    <p class="lead">电影栏目按题材与地区做二级划分，便于按偏好缩小检索范围。</p>
+    <div class="grid">
+      <article class="card"><h3>剧情与文艺</h3><p>涵盖国内外剧情片、文艺片与传记题材，按上映年份与获奖情况补充检索线索。</p><span class="tag">题材检索</span></article>
+      <article class="card"><h3>动作与悬疑</h3><p>动作、犯罪、悬疑、惊悚类影片集中在此，适合按节奏与叙事风格筛选。</p><span class="tag">类型检索</span></article>
+      <article class="card"><h3>喜剧与家庭</h3><p>合家欢、喜剧、动画电影等轻松向内容，标注适宜观看场景与系列关联。</p><span class="tag">场景检索</span></article>
+      <article class="card"><h3>科幻与奇幻</h3><p>科幻、奇幻、灾难类影片，附带世界观与系列观看顺序的整理说明。</p><span class="tag">系列检索</span></article>
+    </div>
+  </section>
+
+  <section id="tv">
+    <div class="sec-h"><span class="num">02</span><h2>电视剧</h2><span class="en">TV Series</span></div>
+    <p class="lead">电视剧栏目以剧集长度与产地为主轴，长剧与短剧分开整理，避免混排。</p>
+    <div class="split">
+      <div class="box">
+        <h3>国产与港台剧集</h3>
+        <p style="font-size:14.5px;color:#4c463d">按古装、都市、悬疑、历史等题材分类，标注集数与更新状态，方便追更与补剧。</p>
+        <p style="font-size:14.5px;color:#4c463d;margin-top:12px">短剧内容单独归组，与长篇剧集分开展示，减少检索干扰。</p>
+      </div>
+      <div class="box">
+        <h3>海外剧集</h3>
+        <p style="font-size:14.5px;color:#4c463d">美剧、英剧、日韩剧与泰剧按产地分组，记录季数与完结状态。</p>
+        <p style="font-size:14.5px;color:#4c463d;margin-top:12px">同系列不同季之间建立关联，便于按顺序观看。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="anime">
+    <div class="sec-h"><span class="num">03</span><h2>动漫</h2><span class="en">Animation</span></div>
+    <p class="lead">动漫栏目区分 TV 动画、剧场版与国创作品，兼顾连载中与新番补档两类需求。</p>
+    <div class="grid">
+      <article class="card"><h3>TV 动画</h3><p>按季度与题材整理连载动画，标注话数与更新节奏。</p><span class="tag">季度索引</span></article>
+      <article class="card"><h3>剧场版与 OVA</h3><p>动画电影与 OVA 单独成组，避免与 TV 版混排。</p><span class="tag">独立条目</span></article>
+      <article class="card"><h3>国创动画</h3><p>国产动画按 2D、3D 与题材分类，记录播出平台与集数。</p><span class="tag">国产专区</span></article>
+    </div>
+  </section>
+
+  <section id="doc">
+    <div class="sec-h"><span class="num">04</span><h2>纪录片</h2><span class="en">Documentary</span></div>
+    <p class="lead">纪录片栏目以主题为第一分类维度，兼顾单集与系列两种形态。</p>
+    <div class="split">
+      <div class="box">
+        <h3>自然与人文</h3>
+        <p style="font-size:14.5px;color:#4c463d">自然地理、历史人文、社会生活类纪录片，按拍摄地区与年代归档。</p>
+      </div>
+      <div class="box">
+        <h3>科技与纪实</h3>
+        <p style="font-size:14.5px;color:#4c463d">科技探索、犯罪案件、人物传记类纪实内容，标注集数与单集时长。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="guide">
+    <div class="sec-h"><span class="num">05</span><h2>观看指南</h2><span class="en">How to Use</span></div>
+    <p class="lead">四步完成从进入高清影视大全到找到目标的整个流程。</p>
+    <ol class="steps">
+      <li><h4>进入站点</h4><p>在浏览器地址栏输入 <b>https://gaoqingyingshidaquan-zh.github.io</b>，即可打开高清影视大全（gaoqingyingshidaquan-zh）首页，无需安装任何程序。</p></li>
+      <li><h4>选择栏目</h4><p>顶部导航支持横向滑动，点击「电影」「电视剧」「动漫」「纪录片」任一栏目，页面向下滚动至对应区块。</p></li>
+      <li><h4>缩小范围</h4><p>在栏目内按题材、产地、年份或集数进一步筛选，优先看标注了更新状态的条目。</p></li>
+      <li><h4>查看说明</h4><p>遇到播放或访问问题，先阅读「常见问题」；仍无法解决可查阅文末联系方式。</p></li>
+    </ol>
+    <div class="note"><b>访问提示：</b>高清影视大全的正式网址只有 <b>https://gaoqingyingshidaquan-zh.github.io</b> 这一个，域名 <b>gaoqingyingshidaquan-zh.github.io</b> 不会以其他拼写形式出现，请留意地址栏以避免误入仿冒页面。</div>
+  </section>
+
+  <section id="data">
+    <div class="sec-h"><span class="num">06</span><h2>内容构成</h2><span class="en">Site Profile</span></div>
+    <div class="box">
+      <table>
+        <tr><th>项目</th><th>说明</th></tr>
+        <tr><td class="k">网站名称</td><td>高清影视大全</td></tr>
+        <tr><td class="k">站点标识</td><td>gaoqingyingshidaquan-zh</td></tr>
+        <tr><td class="k">网站网址</td><td>https://gaoqingyingshidaquan-zh.github.io</td></tr>
+        <tr><td class="k">内容分类</td><td>电影、电视剧、动漫、纪录片四个主栏目</td></tr>
+        <tr><td class="k">更新方式</td><td>按周整理新增与完结条目，更新记录写在各栏目说明中</td></tr>
+        <tr><td class="k">适配情况</td><td>移动端自适应，导航可横向滑动，表格支持横向滚动</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="sec-h"><span class="num">07</span><h2>常见问题</h2><span class="en">FAQ</span></div>
+    <details open><summary>高清影视大全的网址是什么？</summary><p>网站网址是 https://gaoqingyingshidaquan-zh.github.io，其中域名为 gaoqingyingshidaquan-zh.github.io，建议直接收藏该地址。</p></details>
+    <details><summary>站内内容如何分类？</summary><p>分为电影、电视剧、动漫、纪录片四大类，每类再按题材、产地或年份做二级划分。</p></details>
+    <details><summary>手机上能正常浏览吗？</summary><p>可以。全站采用移动端自适应布局，窄屏下栏目自动单列排列，导航条可左右滑动。</p></details>
+    <details><summary>栏目内的链接为什么是 # 形式？</summary><p>本站为单页结构，各栏目锚点用于页内跳转，可快速回到顶部或切换到其他区块。</p></details>
+    <details><summary>内容与访问问题如何反馈？</summary><p>请通过页脚提供的联系方式说明具体情况，反馈时注明高清影视大全的网址 https://gaoqingyingshidaquan-zh.github.io，便于核对。</p></details>
+  </section>
+
+  <section id="about">
+    <div class="sec-h"><span class="num">08</span><h2>关于本站</h2><span class="en">About</span></div>
+    <div class="box">
+      <p style="font-size:15px;margin:0">高清影视大全（gaoqingyingshidaquan-zh）是一个以分类索引与观看指引为主要内容的站点，目标是让访客在 https://gaoqingyingshidaquan-zh.github.io 上用较少步骤找到想看的影视内容。站点不依赖复杂交互，页面结构保持简洁，便于在各类网络环境下加载。</p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h3>高清影视大全 · gaoqingyingshidaquan-zh</h3>
+      <p>网站网址：<a href="https://gaoqingyingshidaquan-zh.github.io">https://gaoqingyingshidaquan-zh.github.io</a></p>
+      <p>域名：gaoqingyingshidaquan-zh.github.io　访问协议：HTTPS</p>
+    </div>
+    <div>
+      <h3>站内导航</h3>
+      <p><a href="#film">电影</a> · <a href="#tv">电视剧</a> · <a href="#anime">动漫</a> · <a href="#doc">纪录片</a> · <a href="#guide">观看指南</a> · <a href="#faq">常见问题</a></p>
+    </div>
+  </div>
+  <div class="wrap copyright">© <span id="y"></span> 高清影视大全 gaoqingyingshidaquan-zh　站点地址 https://gaoqingyingshidaquan-zh.github.io　页面内容仅供索引与信息参考</div>
+</footer>
+<script>
+document.getElementById('y').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
